@@ -1,0 +1,35 @@
+.navbar {
+    margin: 0 auto;
+    max-width: 1110px;
+	border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+	text-align: center;
+	font-size: 0;
+}
+.navbar ul{
+	display: flex;
+}
+.navbar li {
+	display: inline-block;
+	font-size: 18px;
+}
+.navbar a {
+	display: block;
+	text-decoration: none;
+	padding: 19px 38px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #222;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+}
+.navbar .active {
+	background-color: #efefef;
+}
+.navbar a:hover {
+    background-color: rgba(230, 217, 217, 0.685);
+}
+.navbar a:active {
+	background-color: #222;
+	color:cyan; 
+}

@@ -1,0 +1,21 @@
+.section__item {
+    max-width: 330px;
+    min-height: 390px;
+    font-size: 16px;
+}   
+.section__item img {
+   width: 100%; 
+}
+.section__tips {
+    display: inline-block;
+    color: #fff;
+    max-width: 100px;
+    background-color: #2bd9f0;
+	text-transform: uppercase;
+}
+.section__item a {
+    text-decoration: none;
+}
+.section__item h3 {
+    color: rgb(48, 41, 41);
+}
